@@ -5,6 +5,7 @@ At any time, a move can be made to the right, down or diagonally.
 You may assume that m, n >= 0.
 """
 
+
 def minimum_cost_path(R, C, grid):
     dp = [[0 for _ in range(C)] for _ in range(R)]
 

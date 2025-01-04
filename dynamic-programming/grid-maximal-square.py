@@ -4,6 +4,7 @@ Given a grid size of m and n filled with 0's and 1's, Find the dimension of bigg
 You may assume that m, n >= 0.
 """
 
+
 def maximal_square(R, C, grid):
     dp = [[0 for _ in range(C)] for _ in range(R)]
     square_dimension = 0
