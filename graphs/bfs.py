@@ -1,6 +1,7 @@
 """
 Problem Statement:
-Given a graph as adjacency list, do breadth first search (level order traversal).
+Given a graph as adjacency list and a starting vertex, do breadth first search (level order traversal).
+Assume that vertices are 0, 1, 2.......(v-1).
 """
 
 def bfs(v, graph, src):
