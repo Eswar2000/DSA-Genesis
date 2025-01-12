@@ -26,10 +26,8 @@ def dijkstras(g, v, src):
                 ways[nbr_vertex] += ways[current_vertex]
             else:
                 continue
-    print(f"Distance array: {distance}")
     return ways
     
-
 
 if __name__ == '__main__':
     print("Enter the number of vertices in the graph")
@@ -53,5 +51,4 @@ if __name__ == '__main__':
             g.append([])
         
     ways = dijkstras(g, v, src)
-    print(ways)
     print(f"No.of ways to reach {dest} from {src} is {ways[dest]}")
